@@ -7,13 +7,13 @@
 # 3 2 4 -> yes
 # 3 2 1 -> no
 
-# a = 8  # высота #
+
 a = int(input('Введите высоту '))
-# b = 3  # ширина #
+
 b = int(input('Введите ширину '))
-# c = 6  # нужно отломить #
+
 c = int(input('Введите сколько кусков нужноотломить '))
-if c < a*b and c % b == 0 or c % a == 0:
+if c < a * b and c % b == 0 or c % a == 0:
     print("yes")
 else:
     print("no")

@@ -11,7 +11,7 @@
 
 n = int(input('Введите количество всех журавликов '))
 if n % 6 == 0:
- print(var := n // 6, var * 4, var)
+    print(var := n // 6, var * 4, var)
 
   
 # s = int(input('Введите количество журавликов'))
