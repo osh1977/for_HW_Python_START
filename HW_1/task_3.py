@@ -10,9 +10,10 @@
 # 385916 -> yes
 # 123456 -> no
 
-number = '111030'  
-number = input('Введите число ')
-if int(number[0]) + int(number[1]) + int(number[2]) == int(number[3]) + int(number[4]) + int(number[5]):
-    print("yes")
-else:
-    print("no")
+
+
+    
+n,m,k = int(input('В-те 1-ю сторону: ')),int(input('В-те 2-ю сторону: ')),int(input('В-те кол-во долек: '))
+if k%n == 0 or k%m == 0:
+    print('Yes')
+else: print('No')
